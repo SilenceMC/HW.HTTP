@@ -4,11 +4,11 @@ import java.util.UUID;
 
 public class CatsFacts {
 
-    String id;
-    String text;
-    String type;
-    String user;
-    int upvotes;
+    private final String id;
+    private final String text;
+    private final String type;
+    private final String user;
+    private final int upvotes;
 
     public CatsFacts(
             @JsonProperty("id") String id,
